@@ -1,1 +1,11 @@
-My first file test.
+How to created a new Git Hub repository from the command line:
+echo "# repository_name" >> README.md
+git init
+git add README.md
+git commit -m "First commit"
+git remote add origin https://github.com//repository_name.git
+git push -u origin master
+
+Push an existing repository from the command line:
+git remote add origin https://github.com/username/repository_name.git
+git push -u origin master
